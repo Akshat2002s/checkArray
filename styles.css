@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	align-items: center;
+	text-align: center;
+	background-color: rgb(6, 25, 43);
+	color: white;
+}
+
+.intro{
+	margin-top: 10%;
+	margin-bottom: 2%;
+	font-size: xx-large;
+}
+
+.helpText, .helpText2{
+	margin: 2%;
+}
+
+#userInput, #userInput2{
+	width: 40vw;
+	height: 5vh;
+	font-size: x-large;
+}
+
+button{
+	border-radius: 15px;
+	width: 15vh;
+	height: 5vh;
+	margin-top: 3%;
+}
+
+#Output1, #Output2{
+	margin: 2%;
+	font-size: x-large;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<h1>String Check</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText col-12">
+				<h1>Enter The first Array</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput" type="text" placeholder="String One" maxlength="27">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText2 col-12">
+				<h1>Enter The second Array</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput2" type="text" placeholder="String Two" maxlength="27">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+			<div id="Output1"></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<div id="Output2"></div>
+			</div>
+		</div>
+
+		<button onclick="getstring()">Check!</button>
+		<div id="testout"></div>
+
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
